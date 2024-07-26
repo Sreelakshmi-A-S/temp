@@ -1,6 +1,6 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,17 +10,17 @@ body {
 
 .container {
     background-color: #ffffff;
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 100%;
     max-width: 400px;
+    width: 100%;
 }
 
 h1 {
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 28px;
     color: #333333;
 }
 
@@ -32,16 +32,16 @@ h1 {
 
 input, select, button {
     margin: 10px 0;
-    padding: 12px 15px;
+    padding: 12px;
     font-size: 18px;
-    border: 1px solid #cccccc;
+    border: 1px solid #dddddd;
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
 }
 
 input::placeholder {
-    color: #aaaaaa;
+    color: #bbbbbb;
 }
 
 button {
@@ -58,7 +58,7 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: #333333;
 }
