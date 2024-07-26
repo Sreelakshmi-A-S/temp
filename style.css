@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -9,18 +9,19 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
 }
 
 h1 {
     margin-bottom: 20px;
     font-size: 32px;
-    color: #333;
+    color: #333333;
 }
 
 .converter {
@@ -31,17 +32,24 @@ h1 {
 
 input, select, button {
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px 15px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     width: 100%;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #aaaaaa;
 }
 
 button {
     background-color: #007BFF;
-    color: #fff;
+    color: #ffffff;
+    border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -52,5 +60,5 @@ button:hover {
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #333333;
 }
