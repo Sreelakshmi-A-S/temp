@@ -10,14 +10,17 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 300px;
 }
 
 h1 {
     margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
 }
 
 .converter {
@@ -29,9 +32,10 @@ h1 {
 input, select, button {
     margin: 10px 0;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
 }
 
 button {
@@ -46,6 +50,7 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
+    color: #333;
 }
